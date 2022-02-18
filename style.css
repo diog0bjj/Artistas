@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+    color:black;
+}
+html{
+    background-color: #FFEFD5;
+}
+.titulo{
+    height:10vh;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.container{
+    height:10vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 7vw;
+}
+li:hover{
+    color:black;
+    font-weight: bolder;
+}
+.first-part{
+    background-image: url("assests/background-VG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+}
+.principal{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.figura{
+    height:20rem;
+    width: 20rem;
+    background-image: url("assests/moldura.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selfportrait{
+    width:11rem;
+    height:13rem;
+}
+.history{
+    padding: 2vw;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    width:60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    border: double
+}
+.second-part{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    flex-direction: column;
+}
+.painting{
+    height:15rem;
+    width:15rem;
+}
+.text{
+    margin: 2rem;
+    background-color: #fff;
+    padding: 2vw;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: double;
+}
+.divisorias{
+    display: flex;
+    justify-content: center;
+    padding: 6vh;
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h3{
+    margin-bottom: 3vh;
+}
+.box2{
+    width: 34rem;
+}
+
+h1{
+    margin-left: 10vw;
+}
+.principais-obras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photos{
+    margin: 1rem 2rem 0 2rem;
+    border: double;
+    width: 15rem;
+    height:15rem;
+}
+figcaption{
+    margin: 0 2rem 0 2rem;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: small;
+}
+.infos{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFD700;
+    margin-top: 5vh;
+}
+.social{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+li{
+    font-size: large;
+    margin-bottom: 2vh;
+}
+button{
+    width:10rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+@media (max-width:700px){
+    .menu{
+        display: none;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .infos{
+        flex-direction: column;
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button{
+        margin-top:1rem;
+        margin-bottom: 2rem;
+    }
+    .restart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
